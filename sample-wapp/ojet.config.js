@@ -19,7 +19,7 @@ module.exports = {
   webpack: ({ context, config }) => {
     if (context.buildType === 'release') {
       // update config with release / production options
-      if(context.opts.userOptions.match(/package=/)){
+      if(context.opts.userOptions?.match(/package=/)){
         package(config, ['hello-world'])
       }
     } else {
