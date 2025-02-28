@@ -5,13 +5,13 @@
  * as shown at https://oss.oracle.com/licenses/upl/
  * @ignore
  */
-import "sample-wapp/components/hello-world/loader";
+import { HelloWorld } from "hello-world/hello-world";
 import { h } from "preact";
 
 export function Content() {
   return (
     <div class="oj-web-applayout-max-width oj-web-applayout-content">
-      <hello-world></hello-world>
+      <HelloWorld></HelloWorld>
     </div>
   );
 };

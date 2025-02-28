@@ -6,7 +6,7 @@
     "@oracle/oraclejet": "~16.1.0",
     "@oracle/oraclejet-core-pack": "~16.1.0",
     "common": "file:common-1.0.0.tgz",
-    "sample-wapp": "file:sample-wapp-1.0.0.tgz"
+    "sample-wapp": "file:../sample-wapp/sample-wapp-1.0.0.tgz"
   },
   "devDependencies": {
     "@oracle/ojet-cli": "~16.1.0",

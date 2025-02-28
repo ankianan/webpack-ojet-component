@@ -39,5 +39,10 @@
   "engines": {
     "node": ">=12.21.0"
   },
+  "scripts": {
+    "package:build": "npx ojet build --release --user-options=\"package=hello-world\"",
+    "package:pack": "cd web && cp ../package.json . && npm pkg delete dependencies && npm pkg delete devDependencies && npm pack --pack-destination=\"../\"",
+    "package": "npm run package:build && npm run package:pack"
+  },
   "private": true
 }

@@ -471,7 +471,7 @@
       "cdn": "3rdparty",
       "cwd": "node_modules/sample-wapp",
       "debug": {
-        "src": "js/hello-world.a8eb984723cf6967e676.js",
+        "src": "js/hello-world.06810f58163812ecbae6.js",
         "path": "libs/sample-wapp/components/hello-world/loader.js",
         "cdnPath": "sample-wapp/components/hello-world/loader.min"
       },
